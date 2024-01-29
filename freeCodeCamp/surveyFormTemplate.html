@@ -2,38 +2,39 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8"/>
-<link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <h1 id="title">[insert title]</h1>
 <p id="description">[insert description]</p>
 <form id="survey-form">
-    <div>
- <label id="name-label">[name]<input id="name" type="text" placeholder="name" required></label>
-  <label id="email-label">[email]<input id="email" type="email" placeholder="email" required></label>
+  <div>
+    <label id="name-label">[name]<input id="name" type="text" placeholder="name" required></label>
+    <label id="email-label">[email]<input id="email" type="email" placeholder="email" required></label>
   </div>
   <div>
-  <label id="number-label">[number]<input id="number" type="number" min="0" max="9" placeholder="#"></label>
+    <label id="number-label">[number]<input id="number" type="number" min="0" max="9" placeholder="#"></label>
   </div>
-  <div>
-  <select id="dropdown" >
-            <option value="1">[option1]</option>
-            <option value="2">[option2]</option>
-            <option value="3">[option3]</option>
-            <option value="4">[option4]</option>
- </div>
- <div id="group1">
-        <input type="radio" value="val1" name="group1">
-        <input type="radio" value="val2" name="group1">
-        <input type="radio" value="val3" name="group1">
-    </div>
-    <p id="checkbox">[insert multiple choice]</p>
-<input type="checkbox" value="let's get it">
-<input type="checkbox" value="let's go">
-<textarea placeholder="textArea"></textarea>
-<button id="submit">
-</button>
+    <section id="dropdown">
+      <option value="1">[option1]</option>
+      <option value="2">[option2]</option>
+      <option value="3">[option3]</option>
+      <option value="4">[option4]</option>
+    </section>
+  <section id="group1">
+    <input type="radio" value="val1" name="group1">
+    <input type="radio" value="val2" name="group1">
+    <input type="radio" value="val3" name="group1">
+  </section>
+  <p id="checkbox">[insert multiple choice]</p>
+  <input type="checkbox" value="let's get it">
+  <input type="checkbox" value="let's go">
+  <textarea placeholder="textArea"></textarea>
+  <button id="submit">
+  </button>
+
 </html>
 
 
@@ -42,9 +43,8 @@
 ** start of undefined **
 
 name {
-  placeholder: Name;
+placeholder: Name;
 
 }
 
 ** end of undefined **
-
