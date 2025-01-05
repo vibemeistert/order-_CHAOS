@@ -116,10 +116,10 @@ text.innerText += " In your inventory you have: ";
   
   function fightBeast() {
   
-  }
+  };
   body {
     background-color: #0a0a23;
-  }
+  };
   
   #text {
     background-color: #0a0a23;
@@ -141,7 +141,7 @@ text.innerText += " In your inventory you have: ";
     border: 1px solid #0a0a23;
     padding: 5px;
     color: #0a0a23;
-  }
+  };
   
   #monsterStats {
     display: none;
@@ -149,11 +149,11 @@ text.innerText += " In your inventory you have: ";
     padding: 5px;
     color: #ffffff;
     background-color: #c70d0d;
-  }
+  };
   
   .stat {
     padding-right: 10px;
-  }
+  };
   
   button {
     cursor: pointer;
@@ -161,7 +161,7 @@ text.innerText += " In your inventory you have: ";
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
-  }
+  };
   <!DOCTYPE html>
 <html lang="en">
   <head>
