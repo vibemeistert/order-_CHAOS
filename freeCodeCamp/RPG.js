@@ -68,23 +68,23 @@ function update(location) {
   button2.onclick = location["button functions"][1];
   button3.onclick = location["button functions"][2];
   text.innerText = location.text;
-}
+};
 
 function goTown() {
   update(locations[0]);
-}
+};
 
 function goStore() {
   update(locations[1]);
-}
+};
 
 function goCave() {
   update(locations[2]);
-}
+};
 
 function fightDragon() {
   console.log("Fighting dragon.");
-}
+};
 
 function buyHealth() {
     if (gold >= 10)
@@ -96,7 +96,7 @@ function buyHealth() {
     } else {
         text.innerText = "You do not have enough gold to buy health."
     }
-  }
+  };
   function buyWeapon() {
 if (gold >= 30) {
    gold -= 30;
@@ -107,17 +107,16 @@ if (gold >= 30) {
 inventory.push(newWeapon) 
 text.innerText += " In your inventory you have: "; 
 }
-}
-  }
+};
   
   function fightSlime() {
   
-  }
+  };
   
   function fightBeast() {
   
   };
-  body {
+  #body {
     background-color: #0a0a23;
   };
   
@@ -125,7 +124,7 @@ text.innerText += " In your inventory you have: ";
     background-color: #0a0a23;
     color: #ffffff;
     padding: 10px;
-  }
+  };
   
   #game {
     max-width: 500px;
@@ -134,7 +133,7 @@ text.innerText += " In your inventory you have: ";
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
-  }
+  };
   
   #controls,
   #stats {
